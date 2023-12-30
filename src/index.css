@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yOTYtbmluZy0wOC5qcGc.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* AlbumForm css */
+.form{
+  background-color: #E8E8E8;
+  height: 30vh;
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+  border-radius: 8px;
+}
+.round{
+  border-radius: 40px;
+  height: 30px;
+  width:400px;
+  border: none;
+  font-size: 20px;
+}
+.red{
+  border-radius: 5px;
+  background-color: red;
+  height: 30px;
+  width:80px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.blue{
+  border-radius: 5px;
+  background-color: #007FFF;
+  height: 30px;
+  width:90px;
+  font-size: 20px;
+  border: none;
+  width:60px;
+  color: white;
+}
+
+
+/* Navbar css */
+#nav{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(231, 128, 10, 0.772);
+  padding: 0 15px;
+  /* padding-left: 30px; */
+  display:flex;
+  color:black;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Albumlist css */
+#albumlist{
+  display: flex;
+}
+#albumdiv{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+/* add button css */
+.add{
+  background-color: white;
+  border: 2px solid rgba(231, 128, 10, 0.772);
+  height: 30px;
+  font-size: 20px;
+  color:rgba(231, 128, 10, 0.772);
+  margin-left: 50%;
+}
+.heading{
+  display: inline;
+  margin-bottom: 10px;
+}
+
+/* back button on Image page */
+#back{
+  height:20px;
+  width:20px;
+}
+
+/* image container */
+.imglist{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* delete button on image */
+.delete {
+  height: 20px;
+  width:20px;
+  transition: all 0.15s ease-in-out;
+}
